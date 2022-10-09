@@ -1,4 +1,4 @@
 # laughing-parakeet
 
-[https://afrje.github.io/laughing-parakeet/]
-[https://laughing-parakeet.pages.dev]
+[Github](https://afrje.github.io/laughing-parakeet/)
+[Cloudflare](https://laughing-parakeet.pages.dev)
