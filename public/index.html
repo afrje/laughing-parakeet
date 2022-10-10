@@ -2,14 +2,17 @@
 <html>
 <head>
 <title>Test</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/hello.js"></script>
 </head>
 <body>
 <h1>Hello world!!</h1>
+<div id="msg"></div>
 <div>
-<form name="myform" action="/hello" method="post">
+<form name="helloform" action="/hello" method="post">
   <label for="name">Name:</label>
-  <input type="text" name="name" id="name"/>
-  <button>Hello</button>
+  <input type="text" name="name" id="name" value="John"/>
+  <input type="submit" name="submit" value="hello" /><span id="ajax"></span>
 </form>
 </div>
 <div><a href="https://afrje.github.io/laughing-parakeet/" rel="noreferrer nofollow external" target="_blank">Github pages</a></div>
